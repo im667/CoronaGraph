@@ -16,6 +16,8 @@
 		04F6694827F6C55D008DF7C4 /* Protocole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F6694727F6C55D008DF7C4 /* Protocole.swift */; };
 		04F6694A27F6C6CE008DF7C4 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F6694927F6C6CE008DF7C4 /* MainTableViewCell.swift */; };
 		04F6694C27F6F40D008DF7C4 /* SubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F6694B27F6F40C008DF7C4 /* SubViewController.swift */; };
+		04F6694E27FAE445008DF7C4 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F6694D27FAE445008DF7C4 /* ChartView.swift */; };
+		04F6695027FC05BA008DF7C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F6694F27FC05BA008DF7C4 /* Main.storyboard */; };
 		A816F9AAC239FA103010AE13 /* Pods_CoronaGraph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ED05FD0DE2A49BC447B67E6 /* Pods_CoronaGraph.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +33,8 @@
 		04F6694727F6C55D008DF7C4 /* Protocole.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocole.swift; sourceTree = "<group>"; };
 		04F6694927F6C6CE008DF7C4 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
 		04F6694B27F6F40C008DF7C4 /* SubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubViewController.swift; sourceTree = "<group>"; };
+		04F6694D27FAE445008DF7C4 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		04F6694F27FC05BA008DF7C4 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		0ED05FD0DE2A49BC447B67E6 /* Pods_CoronaGraph.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoronaGraph.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		837C7F11287DC269E640F659 /* Pods-CoronaGraph.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoronaGraph.debug.xcconfig"; path = "Target Support Files/Pods-CoronaGraph/Pods-CoronaGraph.debug.xcconfig"; sourceTree = "<group>"; };
 		F9BD7DB39A98BD983A11CB66 /* Pods-CoronaGraph.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoronaGraph.release.xcconfig"; path = "Target Support Files/Pods-CoronaGraph/Pods-CoronaGraph.release.xcconfig"; sourceTree = "<group>"; };
@@ -74,10 +78,12 @@
 				04CA373127F6BF6000D5E975 /* MainViewController.swift */,
 				04F6694B27F6F40C008DF7C4 /* SubViewController.swift */,
 				04F6694527F6C4F8008DF7C4 /* MainView.swift */,
+				04F6694D27FAE445008DF7C4 /* ChartView.swift */,
 				04F6694927F6C6CE008DF7C4 /* MainTableViewCell.swift */,
 				04F6694727F6C55D008DF7C4 /* Protocole.swift */,
 				04CA373627F6BF6300D5E975 /* Assets.xcassets */,
 				04CA373827F6BF6300D5E975 /* LaunchScreen.storyboard */,
+				04F6694F27FC05BA008DF7C4 /* Main.storyboard */,
 				04CA373B27F6BF6300D5E975 /* Info.plist */,
 			);
 			path = CoronaGraph;
@@ -160,6 +166,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F6695027FC05BA008DF7C4 /* Main.storyboard in Resources */,
 				04CA373A27F6BF6300D5E975 /* LaunchScreen.storyboard in Resources */,
 				04CA373727F6BF6300D5E975 /* Assets.xcassets in Resources */,
 			);
@@ -214,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F6694E27FAE445008DF7C4 /* ChartView.swift in Sources */,
 				04F6694627F6C4F8008DF7C4 /* MainView.swift in Sources */,
 				04F6694827F6C55D008DF7C4 /* Protocole.swift in Sources */,
 				04F6694C27F6F40D008DF7C4 /* SubViewController.swift in Sources */,
@@ -363,6 +371,7 @@
 				DEVELOPMENT_TEAM = 75QD4ZR23L;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CoronaGraph/Info.plist;
+				INFOPLIST_KEY_NSMainNibFile = Main;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -391,6 +400,7 @@
 				DEVELOPMENT_TEAM = 75QD4ZR23L;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CoronaGraph/Info.plist;
+				INFOPLIST_KEY_NSMainNibFile = Main;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

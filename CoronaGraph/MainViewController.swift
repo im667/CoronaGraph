@@ -12,7 +12,7 @@ import Charts
 class MainViewController: UIViewController {
 
     let mainView = MainView()
- 
+   
     
     override func loadView() {
         self.view = mainView

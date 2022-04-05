@@ -69,6 +69,8 @@ class MainView: UIView,BaseViewRepresentable {
         return i
     }()
     
+    let chartView = ChartView()
+    
     
     func setupView() {
         
@@ -85,7 +87,7 @@ class MainView: UIView,BaseViewRepresentable {
         }
         
         self.addSubview(ContainerStackView)
-        
+        self.addSubview(chartView)
     }
     
   
@@ -107,6 +109,10 @@ class MainView: UIView,BaseViewRepresentable {
             make.top.equalTo(self.safeAreaLayoutGuide).offset(16)
             make.leading.trailing.equalTo(self.safeAreaLayoutGuide).inset(16)
             make.height.equalTo(72)
+        }
+        chartView.snp.makeConstraints { make in
+            make.top.equalTo(ContainerStackView.snp.bottom).offset(16)
+            make.leading.trailing.equalTo(self.safeAreaLayoutGuide).inset(16)
         }
         
     }
